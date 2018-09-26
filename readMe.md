@@ -1,1 +1,1 @@
-Basic face Detection using OpenCV
+The code for image processing and computer vision
