@@ -4,6 +4,8 @@ import argparse
 import imutils
 import dlib
 import cv2
+import os
+import string
 
 # contructing the argument parser for parsing the arguments
 ap = argparse.ArgumentParser()
@@ -37,6 +39,7 @@ for (i, rect) in enumerate(rects):
     
     for (x, y) in shape:
         cv2.circle(image, (x,y), 1, (0, 0, 255), -1)
-        
+
+cv2.imwrite('output.jpg', image)
 cv2.imshow("Output", image)
 cv2.waitKey(0)    
