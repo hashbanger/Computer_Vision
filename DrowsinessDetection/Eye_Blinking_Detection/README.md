@@ -1,0 +1,2 @@
+The pre-trained model for this can be found [here](https://github.com/hashbanger/Computer_Vision/blob/master/DrowsinessDetection/Facial_Landmarks_Detection/shape_predictor_68_face_landmarks.dat)  
+The default configuration of the file is for live stream using the inbuilt web-cam. For using an mp4 file do the required changes in the .py script.
