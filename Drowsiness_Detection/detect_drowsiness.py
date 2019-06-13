@@ -34,7 +34,7 @@ ap.add_argument("-w", "--webcam", type=int, default=0,
 args = vars(ap.parse_args())
 
 EYE_AR_THRESH = 0.3
-EYE_AR_CONSEC_FRAMES = 48  # decreasing it will cause the detector to be more sensitive
+EYE_AR_CONSEC_FRAMES = 41  # decreasing it will cause the detector to be more sensitive
  
 # initialize the frame counter as well as a boolean used to
 # indicate if the alarm is going off
